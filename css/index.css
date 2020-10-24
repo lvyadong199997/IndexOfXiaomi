@@ -1,0 +1,209 @@
+/* 导航开始 */
+
+.side {
+    position: relative;
+    margin-top: 30px;
+    height: 460px;
+    /* background-color: pink; */
+}
+
+
+/* 导航结束 */
+
+.side .images li {
+    height: 460px;
+    overflow: hidden;
+}
+
+.side .images li img {
+    height: 460px;
+}
+
+
+/* 隐藏图片 */
+
+.images li {
+    display: none;
+}
+
+.images li:first-child {
+    display: block;
+}
+
+
+/* 隐藏图片 */
+
+.navlist li:hover {
+    background-color: #ff6700;
+    padding-left: 15px;
+}
+
+.navlist ul {
+    overflow: hidden;
+    padding: 15px 0;
+    /* opacity: 0.9; */
+    /* margin-top: 20px; */
+    position: absolute;
+    width: 200px;
+    height: 430px;
+    color: #fff;
+    background-color: rgba(105, 101, 101, .6);
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.navlist ul li {
+    padding: 0 5px;
+    height: 42px;
+    line-height: 42px;
+    transition: all .4s;
+}
+
+.navlist a {
+    color: #fff;
+    display: block;
+}
+
+
+/* 手机商品样式开始 */
+
+.show {
+    margin-top: 55px;
+    height: 600px;
+    /* background-color: pink; */
+}
+
+.show .title a:hover {
+    color: #ff6700
+}
+
+.title {
+    height: 58px;
+}
+
+.title h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 58px;
+}
+
+.title a {
+    color: black;
+    display: block;
+    float: right;
+    line-height: 58px;
+    margin-right: 10px;
+}
+
+body {
+    /* height: 3000px; */
+    background-color: rgb(245, 245, 245);
+}
+
+.shops {
+    height: 541px;
+    /* background-color: #ff6700; */
+}
+
+.shops .sideimg {
+    width: 234px;
+    height: 542px;
+    /* background-color: aqua; */
+}
+
+.items {
+    width: 966px;
+    height: 542px;
+    /* background-color: skyblue; */
+}
+
+.shops .sideimg {
+    transition: all .4s;
+}
+
+.sideimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.items li {
+    background: #fff;
+    margin: 0 5px;
+    margin-top: 8px;
+    float: left;
+    width: 230px;
+    height: 262px;
+    transition: all .4s;
+    /* background-color: cadetblue; */
+}
+
+.items li:hover,
+.shops .sideimg:hover {
+    /* padding-top: 2px; */
+    transform: translate3d(0, -4px, 0);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.items li img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -12px;
+}
+
+.items ul {
+    margin-left: 6px;
+    /* margin-top: 6px; */
+}
+
+.items li .title_item {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.items .desc_item {
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    color: #b0b0b0
+}
+
+.items .price {
+    text-align: center;
+    color: #ff6700;
+}
+
+
+/* 这里的two是用来展示两个商品的 */
+
+.two li:hover {
+    transform: translate3d(0, -4px, 0);
+    shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.shops .two {
+    margin-left: 4px;
+    transition: none;
+    width: 234;
+    height: 542px;
+    /* background-color: pink; */
+}
+
+.shops .two li {
+    margin-top: 8px;
+    width: 230px;
+    height: 262px;
+    background-color: #fff;
+    transition: all .4s;
+}
+
+.two img {
+    display: block;
+}
+
+
+/* 手机商品样式结束 */
